@@ -1,3 +1,7 @@
+# Nota 
+
+Esta versión mejora la version de las cookies generando un fichero de map que contiene las URL que existen en el servidor viejo. Una vez que un usuario se accede a una URL del servidor viejo se queda cacheada de forma de que ya no es necesario hacer dos requests ni hace necesaria la cookie.
+Este fichero se puede ir guardando con un cron (ejemplo en el fichero de config de haproxy) de forma que se tiene un registro de todas las URL viejas accedidas e incluso este fichero se puede pasar posteriormente para los apaches de los servidores nuevos para hacer redirect y descargar a haproxy
 # Contexto
 
 Se está migrando una web corporativa alojada en el "servidorviejo" a un CMS wordpress que tiene dos servidores de backend: "servidornuevo" y "servidornuevo2"

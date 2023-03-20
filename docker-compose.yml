@@ -4,6 +4,7 @@ services:
     image: haproxy:2.6
     volumes:
       - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg
+      - ./oldpaths.map:/tmp/oldpaths.map
     ports:
       - 80:80
       - 1936:1936
