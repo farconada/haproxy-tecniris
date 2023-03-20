@@ -1,3 +1,6 @@
+#NOTA
+
+Esta opción no he conseguido hacerla funcionar
 # Contexto
 
 Se está migrando una web corporativa alojada en el "servidorviejo" a un CMS wordpress que tiene dos servidores de backend: "servidornuevo" y "servidornuevo2"
